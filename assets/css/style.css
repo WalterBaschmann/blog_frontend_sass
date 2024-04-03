@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+/* SECCIÓN HEADER */
+
+.cabecera {
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.cabecera__imagen {
+    display: inline-block;
+    width: 40px;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cabecera__titulo {
+    display: inline-block;
+    font-weight: 700;
+}
+
+/* SECCIÓN NOVEDADES */
+
+.novedades {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.novedades__titulo {
+    font-weight: 700;
+}
+
+/* BLOQUE IZQUIERDO DE NOVEDADES */
+
+.categoria-izq {
+    width: 700px;
+    height: 480px;
+    margin: 10px 0 0 0px;
+    display: inline-block;
+    position: static;
+}
+
+.categoria-izq__imagen {
+    width: 700px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.textos-izquierda {
+    position: absolute;
+    margin-top: 300px;
+}
+
+.textos-izquierda__parrafo {
+    font-weight: 400;
+}
+
+.textos-izquierda__titulo {
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.logotexto {
+    display: flex;
+    align-items: center;
+}
+
+.logotexto__imagen {
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logotexto__titulo {
+    font-weight: 500;
+}
+
+/* BLOQUE DERECHO NOVEDADES  */
+
+.categoria-der {
+    width: 475px;
+    height: 480px;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+    position: absolute;
+}
+
+.cards1 {
+    position: static;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.cards1__img {
+    width: 250px;
+    height: 130px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.cards1_text__parrafo {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.cards1_text__titulo {
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin: 15px 0;
+}
+
+.cards-logotexto{
+    display: flex;
+    align-items: center;
+}
+
+.cards-logotexto__imagen {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* SECCIÓN POPULARES Y CATEGORÍAS */
+
+.populares-categorias {
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+/* SECCION POPULARES */
+
+.categoria-izq__titulo {
+    font-weight: 700;
+    margin: 35px 0 15px;
+}
+
+.cards2section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards2 {
+    width: 340px;
+    height: 390px;
+    margin: 5px 0 15px;
+    justify-content: space-between;
+}
+
+.cards2__img {
+    width: 340px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.cards2__parrafo {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.cards2__titulo {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 15px 0 40px;
+}
+
+/* SECCIÓN CATEGORÍAS */
+
+.categoria-der__titulo {
+    margin: 35px 51px 0px;
+}
+
+/* .botones {
+    
+} */
+
+.botones div {
+    width: 370px;
+    height: 90px;
+    margin: 30px auto 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.boton-html {
+    background-color: #e93e30;
+    margin-top: 20px !important;
+}
+
+.boton-js {
+    background-color: #f7e018;
+    
+}
+
+.boton-css {
+    background-color: #299ed5;
+}
+
+.boton-react {
+    background-color: #292c33;
+}
+
+.boton-vue {
+    background-color: #67c770;
+}
+
+.boton-bs {
+    background-color: #563d7c;
+}
+
+.boton-html__imagen, .boton-js__imagen, .boton-css__imagen, .boton-react__imagen, .boton-vue__imagen, .boton-bs__imagen {
+    width: 70px;
+    margin-left: 15px;
+}
+
+.boton-html__titulo, .boton-js__titulo, .boton-css__titulo, .boton-react__titulo, .boton-vue__titulo, .boton-bs__titulo {
+    margin: 0 25px 0 auto;
+    color: #ffffff;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.categoria-der__enlace {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    margin: 40px 50px;
+    font-weight: 400;
+}
+
+/* FOOTER */
+
+.pie {
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.pie__imagen {
+    display: inline-block;
+    width: 40px;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.pie__titulo {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.pie__parrafo {
+    margin: 0 65px 0 auto;
+    font-weight: 400;
+}
+
+.botones__div--mod:hover {
+    box-shadow: 5px 5px 15px #000000;
+    color: #a3a3a3
+}
